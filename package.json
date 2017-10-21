@@ -1,0 +1,25 @@
+{
+  "name": "github-issue-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "github",
+    "iot",
+    "resin",
+    "resin.io",
+    "counter",
+    "status"
+  ],
+  "author": "Tim Perry <pimterry@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node-blinkt": "Irrelon/node-blinkt#2324852",
+    "node-fetch": "^1.7.3"
+  }
+}
