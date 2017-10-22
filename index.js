@@ -57,7 +57,7 @@ setInterval(() => {
   }
 
   existingIssueMarkers.slice(0, 8).forEach((issueId, i) => {
-    if (issueId !== null) leds.setPixel(i, 255, 255, 0, 0.3);
+    if (issueId !== null) leds.setPixel(i, 255, 255, 0, 0.1);
     else leds.setPixel(i, 0, 0, 0, 1);
   });
 
